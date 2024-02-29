@@ -1,35 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root{
     --color1: #161b22;
     --color2: #0b0f14; 
     --color3: #fd7e14; 
     --color4: #d7ddf4; 
+    --color5: #fefefe; 
+    --color6: #e5e5e5; 
+    --color7: #89bee8; 
+    --color8: #3c8bcf; 
+    --color9: #000000; 
 }
 
 
 body{
-    background-color: var(--color2);
+    background-color: var(--color5);
 }
 a{
     text-decoration: none;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .bi{
-    color: var(--color4);
+    color: var(--color2);
+    font-size: 1.2rem;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 
 .navbar-expand-lg{
-    background: var(--color1);
+    background: var(--color6);
 }
 .nav-item a{
-    color: var(--color4);
+    color: var(--color9);
 }
 .nav-item a:hover{
-    color: var(--color3);
+    color: var(--color8);
 }
 .dropdown-menu{
-    background-color: var(--color1);
+    background-color: var(--color5);
 }
 .dropdown-item:hover{
     background: none;
@@ -49,22 +57,23 @@ a{
     display: flex;
     position: relative;
     margin: 20px auto;
+    margin-top: 50px;
     width: 1100px;
     height: 500px;
     border-radius: 40px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     overflow: hidden;
-    background-color: var(--color1);
+    background-color: var(--color6);
 }
 
 .row label,h1{
-    color: var(--color4);
+    color: var(--color9);
 }
 .form-check label,p{
-    color: var(--color4);
+    color: var(--color9);
 }
 .res{
-    color: var(--color4);
+    color: var(--color9);
     margin-left: 10px;
 }
 .register-item{
@@ -78,7 +87,7 @@ a{
 }
 
 .teble{
-    background-color: var(--color2);
+    background-color: var(--color6);
     position: absolute;
     width: 550px;
     height: 100%;    
@@ -92,20 +101,22 @@ a{
 
 .logo{
     margin: auto;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px; 
 }
 .logo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 .btn{
     border: none;
     border-radius: 15px;
-    background-color: var(--color2);
-    color: var(--color4);
-}.btn:hover{background-color: var(--color3); color: var(--color4);}
+    background-color: var(--color7);
+    color: var(--color9);
+}.btn:hover{background-color: var(--color8); color: var(--color9);}
+
 @media screen and (max-width: 430px){
     .login{
         width: 350px; 
@@ -146,7 +157,7 @@ a{
     }
 
     .navbar-toggler{
-        background-color: var(--color2);
+        background-color: var(--color6);
     }
     
     
